@@ -374,7 +374,7 @@ export default function Home() {
                   </div>
                   
                   <div className="border-t border-gray-200 pt-6">
-                    <p className="text-gray-600 text-center">Prefer to send a message? Email us at <a href="mailto:info@autometa.com" className="text-indigo-600 hover:text-indigo-800">info@autometa.com</a></p>
+                    <p className="text-gray-600 text-center">Prefer to send a message? Email us at <a href="mailto:adil@autometa.com" className="text-indigo-600 hover:text-indigo-800">adil@autometa.com</a></p>
                   </div>
                 </div>
               </div>
