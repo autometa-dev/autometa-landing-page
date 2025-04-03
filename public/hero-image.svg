@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#F9FAFB" />
+  <rect x="100" y="150" width="600" height="300" rx="20" fill="#EEF2FF" />
+  
+  <!-- Digital Network Pattern -->
+  <circle cx="150" cy="200" r="6" fill="#4F46E5" />
+  <circle cx="250" cy="250" r="6" fill="#4F46E5" />
+  <circle cx="350" cy="200" r="6" fill="#4F46E5" />
+  <circle cx="450" cy="300" r="6" fill="#4F46E5" />
+  <circle cx="550" cy="250" r="6" fill="#4F46E5" />
+  <circle cx="650" cy="350" r="6" fill="#4F46E5" />
+  <circle cx="200" cy="350" r="6" fill="#4F46E5" />
+  <circle cx="300" cy="400" r="6" fill="#4F46E5" />
+  <circle cx="400" cy="350" r="6" fill="#4F46E5" />
+  <circle cx="500" cy="400" r="6" fill="#4F46E5" />
+  <circle cx="600" cy="200" r="6" fill="#4F46E5" />
+  
+  <!-- Connection Lines -->
+  <line x1="150" y1="200" x2="250" y2="250" stroke="#4F46E5" stroke-width="2" />
+  <line x1="250" y1="250" x2="350" y2="200" stroke="#4F46E5" stroke-width="2" />
+  <line x1="350" y1="200" x2="450" y2="300" stroke="#4F46E5" stroke-width="2" />
+  <line x1="450" y1="300" x2="550" y2="250" stroke="#4F46E5" stroke-width="2" />
+  <line x1="550" y1="250" x2="650" y2="350" stroke="#4F46E5" stroke-width="2" />
+  <line x1="650" y1="350" x2="600" y2="200" stroke="#4F46E5" stroke-width="2" />
+  <line x1="600" y1="200" x2="500" y2="400" stroke="#4F46E5" stroke-width="2" />
+  <line x1="500" y1="400" x2="400" y2="350" stroke="#4F46E5" stroke-width="2" />
+  <line x1="400" y1="350" x2="300" y2="400" stroke="#4F46E5" stroke-width="2" />
+  <line x1="300" y1="400" x2="200" y2="350" stroke="#4F46E5" stroke-width="2" />
+  <line x1="200" y1="350" x2="250" y2="250" stroke="#4F46E5" stroke-width="2" />
+  <line x1="350" y1="200" x2="600" y2="200" stroke="#4F46E5" stroke-width="2" />
+  
+  <!-- Central Robot/AI Icon -->
+  <circle cx="400" cy="300" r="50" fill="#4F46E5" opacity="0.8" />
+  <path d="M400 260C420 260 430 280 430 300C430 320 420 340 400 340C380 340 370 320 370 300C370 280 380 260 400 260Z" fill="#F9FAFB" />
+  <rect x="385" y="280" width="30" height="5" fill="#4F46E5" />
+  <rect x="385" y="290" width="30" height="5" fill="#4F46E5" />
+  <rect x="385" y="300" width="30" height="5" fill="#4F46E5" />
+  <rect x="385" y="310" width="30" height="5" fill="#4F46E5" />
+</svg>

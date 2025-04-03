@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="200" rx="10" fill="#EEF2FF" />
+  
+  <!-- Business Process Optimization -->
+  <rect x="70" y="60" width="160" height="80" rx="5" fill="#4F46E5" opacity="0.2" />
+  
+  <!-- Process Flow Elements -->
+  <rect x="90" y="80" width="40" height="40" rx="5" fill="#4F46E5" />
+  <rect x="170" y="80" width="40" height="40" rx="5" fill="#4F46E5" />
+  
+  <!-- Arrow -->
+  <path d="M140 100H160M160 100L150 90M160 100L150 110" stroke="#4F46E5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Progress Indicators -->
+  <rect x="70" y="150" width="160" height="10" rx="5" fill="#E0E7FF" />
+  <rect x="70" y="150" width="120" height="10" rx="5" fill="#4F46E5" />
+  
+  <!-- Chart Elements -->
+  <path d="M90 60L90 40L110 40L110 60" stroke="#4F46E5" stroke-width="2" />
+  <path d="M120 60L120 30L140 30L140 60" stroke="#4F46E5" stroke-width="2" />
+  <path d="M150 60L150 50L170 50L170 60" stroke="#4F46E5" stroke-width="2" />
+  <path d="M180 60L180 20L200 20L200 60" stroke="#4F46E5" stroke-width="2" />
+</svg>

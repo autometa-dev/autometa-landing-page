@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="200" rx="10" fill="#EEF2FF" />
+  
+  <!-- AI Automation Icon -->
+  <circle cx="150" cy="100" r="60" fill="#4F46E5" opacity="0.2" />
+  <circle cx="150" cy="100" r="40" fill="#4F46E5" opacity="0.5" />
+  
+  <!-- Gear Icon -->
+  <path d="M150 75C151.7 75 153.4 75.1 155 75.4L158 67H162L165 75.4C166.6 75.1 168.3 75 170 75L175 68H179L183 76C184.5 76.6 185.9 77.3 187.3 78.2L195 74H198L201 83C202.3 84 203.5 85.1 204.6 86.3L213 85V89L205 94C205.7 95.6 206.2 97.3 206.6 99L215 103V107L206 110C205.6 111.7 205.1 113.4 204.4 115L211 123H207L199 118C197.7 119 196.3 119.8 194.8 120.5L193 130H189L185 121C183.4 121.3 181.7 121.5 180 121.5L175 129H171L167 120.5C165.4 119.9 163.9 119.2 162.4 118.3L155 122H151L148 113C146.7 112 145.5 110.9 144.4 109.7L136 111V107L143 101C142.3 99.4 141.8 97.7 141.4 96L133 92V88L142 85C142.4 83.3 142.9 81.6 143.6 80L137 72H141L149 77C150.3 76 151.7 75.2 153.2 74.5L155 75Z" fill="white" />
+  <circle cx="150" cy="100" r="15" fill="#4F46E5" />
+  
+  <!-- Binary/Data Points -->
+  <text x="130" y="160" fill="#4F46E5" font-family="monospace" font-size="14">01101</text>
+  <text x="180" y="160" fill="#4F46E5" font-family="monospace" font-size="14">10011</text>
+  <text x="110" y="50" fill="#4F46E5" font-family="monospace" font-size="14">00110</text>
+  <text x="170" y="50" fill="#4F46E5" font-family="monospace" font-size="14">11001</text>
+</svg>
