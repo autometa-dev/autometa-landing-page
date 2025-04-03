@@ -15,7 +15,7 @@ export default function Services() {
     },
     {
       title: "Software Development",
-      description: "End-to-end software solutions custom-built to address your specific business challenges and opportunities. We build robust applications that are fast, secure, and scalable for growing businesses.",
+      description: "End-to-end software solutions custom-built to address your specific business challenges and opportunities. We develop robust applications that are fast, secure, and scalable for growing businesses.",
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
@@ -24,7 +24,7 @@ export default function Services() {
     },
     {
       title: "Social Media & Video Generation",
-      description: "AI-powered content creation for social media platforms and automated video generation for marketing and communication. Generate engaging content at scale for all your digital channels.",
+      description: "AI-powered content creation for social media platforms and automated video generation for marketing and communication. We develop engaging content at scale for all your digital marketing channels.",
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" />
@@ -33,7 +33,7 @@ export default function Services() {
     },
     {
       title: "Automations & Integrations",
-      description: "Streamline workflows by connecting your tools and automating repetitive tasks across your business systems. Boost productivity and reduce errors with intelligent process automation.",
+      description: "Streamline workflows by connecting your tools and automating repetitive tasks across your business systems. We enhance productivity and reduce errors with intelligent process automation solutions.",
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
@@ -43,7 +43,7 @@ export default function Services() {
   ];
 
   return (
-    <main className="min-h-screen bg-gray-50">
+    <main className="min-h-screen bg-gray-50 pt-24">
       
       <div className="container mx-auto px-4 py-16 max-w-6xl">
         <h1 className="text-4xl md:text-5xl font-bold text-center text-indigo-800 mb-4">Our Services</h1>
@@ -56,15 +56,15 @@ export default function Services() {
           {services.map((service, index) => (
             <div 
               key={index} 
-              className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
+              className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col h-full"
             >
-              <div className="p-8">
+              <div className="p-8 flex flex-col flex-grow">
                 <div className="mb-5 flex justify-center">
                   {service.icon}
                 </div>
                 <h3 className="text-xl font-bold text-indigo-800 mb-3 text-center">{service.title}</h3>
-                <p className="text-gray-600 mb-6">{service.description}</p>
-                <div className="text-center">
+                <p className="text-gray-600 mb-6 flex-grow">{service.description}</p>
+                <div className="text-center mt-auto pt-4">
                   <Link 
                     href="#contact-form"
                     className="inline-block bg-indigo-600 text-white py-2 px-6 rounded-full hover:bg-indigo-700 transition-colors"

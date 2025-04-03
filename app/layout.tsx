@@ -17,6 +17,16 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Autometa - AI Automation Solutions",
   description: "Autometa empowers businesses with cutting-edge AI automation solutions that streamline operations, reduce costs, and drive innovation.",
+  icons: {
+    icon: [
+      { url: '/favicon.png', sizes: '32x32', type: 'image/png' },
+    ],
+    shortcut: ['/favicon.png'],
+    apple: [{ url: '/favicon.png', sizes: '180x180', type: 'image/png' }],
+    other: [
+      { rel: 'apple-touch-icon', url: '/favicon.png' },
+    ],
+  },
 };
 
 export default function RootLayout({
@@ -26,6 +36,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* We'll use a direct link tag for the favicon */}
+        <link
+          rel="icon"
+          href="/favicon.png"
+          type="image/png"
+          sizes="32x32"
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function AboutUs() {
   return (
-    <main className="min-h-screen bg-gray-50">
+    <main className="min-h-screen bg-gray-50 pt-24">
       
       <div className="container mx-auto px-4 py-16 max-w-6xl">
         <h1 className="text-4xl md:text-5xl font-bold text-center text-indigo-800 mb-6">About Us</h1>
